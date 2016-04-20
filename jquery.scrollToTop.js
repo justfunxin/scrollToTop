@@ -25,7 +25,7 @@
                 $this.hide();
             }
             $container.scroll(function() {
-                if ($container.scrollTop() > opts.scrollDistance) {
+                if ($container.scrollTop() > opts.distance) {
                     $this.fadeIn();
                 } else {
                     $this.fadeOut();
