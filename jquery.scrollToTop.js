@@ -1,3 +1,10 @@
+/**
+ *
+ * @build  : 2016-04-21
+ * @author : xin
+ * @version : 1.0
+ *
+ */
 (function($) {
     $.fn.scrollToTop = function(options) {
         if(options && options.target && !options.container) {
